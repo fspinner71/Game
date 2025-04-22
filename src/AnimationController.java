@@ -33,8 +33,6 @@ public class AnimationController {
     {
         pixelScale = scale;
         animations = new HashMap<String, Animation>();
-        this.anchorX = anchorX;
-        this.anchorY = anchorY;
     }
     public void setScale(int scale)
     {
